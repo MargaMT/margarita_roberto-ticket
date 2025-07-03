@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0b0c1e, #1c0241);
+  font-family: monospace;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  
+   padding: 1rem;
+}
+
+
+.logo {
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: #f77f6c;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.info {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 1rem 0;
+}
+
+.email {
+  color: #f77f6c;
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.ticket-left {
+  text-align: left;
+}
+
+.ticket-logo {
+  font-weight: bold;
+}
+
+.ticket-date {
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+}
+
+.ticket-user {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.ticket-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.handle {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.ticket-right {
+  transform: rotate(-90deg);
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
